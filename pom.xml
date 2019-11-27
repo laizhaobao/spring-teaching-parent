@@ -5,7 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 <!--
 mvn clean package -pl ch21-mvc-validation -am
-其中pl(是project list的意思,指定要处理的项目列表 am参数是also make的意思,就是指也编译指定项目依赖的模块)
+其中pl(是project list的意思,指定要处理的项目列表 am参数是also make的意思,
+就是指也编译指定项目依赖的模块)
 -->
     <groupId>con.nf</groupId>
     <artifactId>spring-teaching-parent</artifactId>
