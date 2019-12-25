@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch32-mvc-ssm-code</artifactId>
+    <artifactId>ch33-mvc-cors</artifactId>
 
     <packaging>war</packaging>
     <dependencies>
@@ -91,5 +91,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

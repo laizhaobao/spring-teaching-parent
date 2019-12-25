@@ -3,45 +3,129 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch01-spring-container" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch01-spring-container/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch01-spring-container/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch02-spring-ioc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch02-spring-ioc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch02-spring-ioc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch03-spring-autowire" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-spring-autowire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-spring-autowire/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch04-spring-log-logback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04-spring-log-logback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04-spring-log-logback/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch05-spring-dbutils-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch05-spring-dbutils-druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch05-spring-dbutils-druid/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch06-spring-mybatis-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-spring-mybatis-druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06-spring-mybatis-druid/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07-spring-mybatis-druid-good" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-spring-mybatis-druid-good/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-spring-mybatis-druid-good/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07-spring-mybatis-druid-good2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-spring-mybatis-druid-good2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07-spring-mybatis-druid-good2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch08-spring-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08-spring-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08-spring-aop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09-spring-aop-advice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09-spring-aop-advice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09-spring-aop-advice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch10-spring-aop-pointcut" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch10-spring-aop-pointcut/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch10-spring-aop-pointcut/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch11-spring-advisor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch11-spring-advisor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch11-spring-advisor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch12-spring-tx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch12-spring-tx-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12-spring-tx-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12-spring-tx-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12-spring-tx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12-spring-tx/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch13-annotation-container-ioc-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch13-annotation-container-ioc-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch13-annotation-container-ioc-aop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch14-annotation-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14-annotation-tx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14-annotation-tx/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch15-code-container-ioc-aop-tx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch15-code-container-ioc-aop-tx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch15-code-container-ioc-aop-tx/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch16-code-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch16-code-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch16-code-mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch17-mvc-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch17-mvc-helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch17-mvc-helloworld/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch18-mvc-processflow" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch18-mvc-processflow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch18-mvc-processflow/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch19-mvc-request-mapping" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch19-mvc-request-mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch19-mvc-request-mapping/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch20-mvc-receive-data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch20-mvc-receive-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch20-mvc-receive-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch21-mvc-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch21-mvc-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch21-mvc-validation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch22-mvc-view" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch22-mvc-view/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch22-mvc-view/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch23-mvc-static" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch23-mvc-static/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch23-mvc-static/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch24-mvc-json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch24-mvc-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch24-mvc-json/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch25-mvc-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch25-mvc-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch25-mvc-exception/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch26-mvc-interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch26-mvc-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch26-mvc-interceptor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch27-mvc-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch27-mvc-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch27-mvc-file/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch28-ssm-xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch28-ssm-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch28-ssm-xml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-dao/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-entity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch29-ssm-xml-multi-module-parent/demo-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch30-servlet3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch30-servlet3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch30-servlet3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch31-mvc-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-mvc-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch31-mvc-code/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch32-mvc-ssm-code" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch32-mvc-ssm-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch32-mvc-ssm-code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch33-mvc-cors/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch33-mvc-cors/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch34-mvc-restfull/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch34-mvc-restfull/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-impl-usage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-impl-usage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-impl-usage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring-impl/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-tx-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-tx-impl/src/main/resources" charset="UTF-8" />
   </component>
 </project>

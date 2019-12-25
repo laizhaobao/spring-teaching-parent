@@ -50,6 +50,8 @@ mvn clean package -pl ch21-mvc-validation -am
         <module>ch30-servlet3</module>
         <module>ch31-mvc-code</module>
         <module>ch32-mvc-ssm-code</module>
+        <module>ch33-mvc-cors</module>
+        <module>ch34-mvc-restfull</module>
     </modules>
 
 
@@ -79,6 +81,7 @@ mvn clean package -pl ch21-mvc-validation -am
         <jackson.version>2.10.1</jackson.version>
         <commons.fileupload.version>1.4</commons.fileupload.version>
         <lombok.version>1.18.10</lombok.version>
+        <swagger.version>2.9.2</swagger.version>
     </properties>
 
     <dependencyManagement>
@@ -218,7 +221,17 @@ mvn clean package -pl ch21-mvc-validation -am
                 <scope>provided</scope>
             </dependency>
 
-
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <!-- Swagger UI提供了Web页面以方便开发人员查看API文档-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

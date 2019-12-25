@@ -39,6 +39,7 @@
         <module name="mybatis-spring-impl-usage" />
         <module name="ch07-spring-mybatis-druid-good2" />
         <module name="demo-web" />
+        <module name="ch34-mvc-restfull" />
         <module name="ch28-ssm-xml" />
         <module name="ch24-mvc-json" />
         <module name="demo-dao" />
@@ -46,6 +47,7 @@
         <module name="ch30-servlet3" />
         <module name="ch16-code-mybatis" />
         <module name="ch32-mvc-ssm-code" />
+        <module name="ch33-mvc-cors" />
       </profile>
     </annotationProcessing>
   </component>

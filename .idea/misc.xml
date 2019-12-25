@@ -22,6 +22,8 @@
     <file type="web" url="file://$PROJECT_DIR$/ch30-servlet3" />
     <file type="web" url="file://$PROJECT_DIR$/ch31-mvc-code" />
     <file type="web" url="file://$PROJECT_DIR$/ch32-mvc-ssm-code" />
+    <file type="web" url="file://$PROJECT_DIR$/ch33-mvc-cors" />
+    <file type="web" url="file://$PROJECT_DIR$/ch34-mvc-restfull" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
