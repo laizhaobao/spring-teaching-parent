@@ -46,14 +46,14 @@ WebService: 主要是利用soap协议进行通信
 当你的ajax像下面这样写:
 ```js
 $.ajax({
-					url:"http://127.0.0.1:8080/users/1",
-					type:"PUT",
-					data:{id:1,username:"yyyy"},
-					success:function(result){
-						alert(result.code);
-					}
-					
-				});
+    url:"http://127.0.0.1:8080/users/1",
+    type:"PUT",
+    data:{id:1,username:"yyyy"},
+    success:function(result){
+        alert(result.code);
+    }
+    
+});
 ```
 后端像下面这样写:
 ```java
@@ -67,18 +67,19 @@ $.ajax({
 
 ## 原因如下
 在Servlet规范中(https://www.ietf.org/rfc/rfc2616.txt)
-,表单数据只对POST提交有效,对于PUT与DELETE(见案例中test包下的servlet类),
-patch是无效的(这句话在spring的HttpPutFormContentFilter类的注释上有说明),
+,表单数据只对POST提交有效,对于PUT,DELETE,
+patch(见案例中test包下的servlet类)是无效的(这句话在spring的HttpPutFormContentFilter类的注释上有说明),
 也就是说,当采用表单提交方式时(contentType为application/x-www-form-urlencoded),
 放置在请求体中的数据servlet容器如果发现是非POST提交,就不进行处理,你就无法通过getParameter的形式获取数据,
 这样spring mvc就无法对参数进行绑定,所以就获取不到值
 
 ## 解决办法
 解决的思路是利用过滤器,获取表单数据并进行数据读取,之后封装HttpServletRequest对象,
-以便是PUT,DELETE等请求时,也可以通过getParameter方法获取到数据
+以便即使是PUT,DELETE等请求时,也可以通过getParameter方法获取到数据
 spring主要提供了以下几个过滤器来处理
 1. HiddenHttpMethodFilter
-2. FormContentFilter,此过滤器主要是用来取代HttpPutFormContentFilter用的.
+2. FormContentFilter,此过滤器主要是用来
+取代HttpPutFormContentFilter(这个过滤器不支持delete请求)用的.
 
 办法二(建议):
 1. 不添加任何的过滤器
@@ -89,43 +90,43 @@ spring主要提供了以下几个过滤器来处理
 ```js
 $("#btnInsert").click(function(){
 				
-				$.ajax({
-					url:"http://127.0.0.1:8080/users",
-					type:"POST",
-					data:{id:1,username:"yyyy"},
-					success:function(result){
-						alert(result.code);
-					}
-					
-				});
-			});
+    $.ajax({
+        url:"http://127.0.0.1:8080/users",
+        type:"POST",
+        data:{id:1,username:"yyyy"},
+        success:function(result){
+            alert(result.code);
+        }
+        
+    });
+});
 			
-			$("#btnUpdate").click(function(){
-				
-				$.ajax({
-					url:"http://127.0.0.1:8080/users/1",
-					type:"PUT",
-					contentType:"application/json",
-					data:JSON.stringify({id:1,username:"yyyy"}),
-					success:function(result){
-						alert(result.code);
-					}
-					
-				});
-			});
-			
-			
-			$("#btnDelete").click(function(){
-				
-				$.ajax({
-					url:"http://127.0.0.1:8080/users/1",
-					type:"DELETE",
-					success:function(result){
-						alert(result.code);
-					}
-					
-				});
-			});
+$("#btnUpdate").click(function(){
+    
+    $.ajax({
+        url:"http://127.0.0.1:8080/users/1",
+        type:"PUT",
+        contentType:"application/json",
+        data:JSON.stringify({id:1,username:"yyyy"}),
+        success:function(result){
+            alert(result.code);
+        }
+        
+    });
+});
+
+
+$("#btnDelete").click(function(){
+    
+    $.ajax({
+        url:"http://127.0.0.1:8080/users/1",
+        type:"DELETE",
+        success:function(result){
+            alert(result.code);
+        }
+        
+    });
+});
 ```
 
 # 参考资料
