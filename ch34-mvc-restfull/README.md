@@ -81,6 +81,7 @@ spring主要提供了下面过滤器来处理
 1. FormContentFilter,此过滤器主要是用来
 取代HttpPutFormContentFilter(这个过滤器不支持delete请求)用的.
 
+
 > 注意:HiddenHttpMethodFilter过滤器主要是解析传递过来的真正请求方法,改变getMethod的值
 > 主要解决的是浏览器只支持get,post请求的情况
 
