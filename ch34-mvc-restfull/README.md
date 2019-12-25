@@ -72,6 +72,7 @@ patch是无效的(这句话在spring的HttpPutFormContentFilter类的注释上�
 也就是说,当采用表单提交方式时(contentType为application/x-www-form-urlencoded),
 放置在请求体中的数据servlet容器如果发现是非POST提交,就不进行处理,你就无法通过getParameter的形式获取数据,
 这样spring mvc就无法对参数进行绑定,所以就获取不到值
+
 ## 解决办法
 解决的思路是利用过滤器,获取表单数据并进行数据读取,之后封装HttpServletRequest对象,
 以便是PUT,DELETE等请求时,也可以通过getParameter方法获取到数据
