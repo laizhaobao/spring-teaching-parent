@@ -76,10 +76,13 @@ patch(见案例中test包下的servlet类)是无效的(这句话在spring的Http
 ## 解决办法
 解决的思路是利用过滤器,获取表单数据并进行数据读取,之后封装HttpServletRequest对象,
 以便即使是PUT,DELETE等请求时,也可以通过getParameter方法获取到数据
-spring主要提供了以下几个过滤器来处理
-1. HiddenHttpMethodFilter
-2. FormContentFilter,此过滤器主要是用来
+spring主要提供了下面过滤器来处理
+
+1. FormContentFilter,此过滤器主要是用来
 取代HttpPutFormContentFilter(这个过滤器不支持delete请求)用的.
+
+> 注意:HiddenHttpMethodFilter过滤器主要是解析传递过来的真正请求方法,改变getMethod的值
+> 主要解决的是浏览器只支持get,post请求的情况
 
 办法二(建议):
 1. 不添加任何的过滤器
