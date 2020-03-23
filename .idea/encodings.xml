@@ -114,8 +114,10 @@
     <file url="file://$PROJECT_DIR$/ch32-mvc-ssm-code" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch32-mvc-ssm-code/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch32-mvc-ssm-code/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch33-mvc-cors" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch33-mvc-cors/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch33-mvc-cors/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch34-mvc-restfull" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch34-mvc-restfull/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch34-mvc-restfull/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-spring-impl" charset="UTF-8" />
